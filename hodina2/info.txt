@@ -1,0 +1,3 @@
+ul + li .....zoznam a podzoznam
+alt+shift+sipka dole...kopirovanie riadka
+ol + lo .....cislovany zoznam
