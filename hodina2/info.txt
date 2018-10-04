@@ -1,3 +1,6 @@
 ul + li .....zoznam a podzoznam
 alt+shift+sipka dole...kopirovanie riadka
-ol + lo .....cislovany zoznam
+ol + li .....cislovany zoznam
+
+kde
+ ol/ul je zoznAM a il su jednotlive hotnoty
