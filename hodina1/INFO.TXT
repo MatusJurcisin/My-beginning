@@ -6,7 +6,7 @@ p - text + este merge.....podnadpis
 div- element na celu dlzku riadku
 snap - element na sirku textu..skor na zvyraznenie textu, ikony
 
-dvojklik + ctrl D.....viac kurzorov
+dvojklik + ctrl D.....viac kurzorov....lepsia varianta je alt+klik na pozadovane miesto
 
 koment - pravy strl + ctrl a opacne lomintko / //..? ...akoze info pre ineho developera.....co je zakomentovane to neexistuje na stranke
 pre  ...stromcek
@@ -30,4 +30,3 @@ mark...hightlight????
 blockquote....odsadenie textu...viacriadkova citatcia
 
 source tree....stiahnut doma
-slek komuikacny kanal
