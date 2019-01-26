@@ -1,0 +1,48 @@
+body {
+    width: 600px;
+    background-color: rgb(223, 73, 73);
+    margin: auto;
+    text-align: left;
+}
+
+.belly{
+    width: 600px;
+    background-color: rgb(45, 132, 182);
+    margin: auto;
+    text-align: left;
+}
+.cupcake{
+    width: 600px;
+    background-color: rgb(188, 102, 196);
+    margin: auto;
+    text-align: left;
+}
+.muffin{
+    width: 600px;
+    background-color: rgb(109, 86, 77);
+    margin: auto;
+    text-align: left;
+    
+}
+h1{
+    font-size: 80px;
+    color: rgb(255, 255, 255); 
+    font-family: cambria;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+p{
+    font-family: cambria;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 300px;
+}
+
+a{
+    text-decoration: none;
+    color:white; 
+    font-size: 30px;
+    font-family: cambria;
+    
+}
