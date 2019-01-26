@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" id="top">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Makac | Change yor life... NOW!</title>
+    <link rel="stylesheet" href="design/css/style.css">
+    <link rel="shortcut icon" href="icon.png">
+</head>
+<body>
+    <header>
+            <div class="header">
+                    <div class="items">
+                        <ul class="ul1">
+                            <li><a href="#top" class="listitem">Home</a></li>
+                            <li><a href="#getstarted" class="listitem">Get Started</a></li>
+                            <li><a href="#premium" class="listitem">Premium</a></li>
+                            <li><a href="index.html" class="listitem">Blog</a></li>
+                            <li><a href="about_us.html" class="listitem">About Us</a></li>
+                            <li> <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" class="listitem2" ><img src="images/login_icon.png" id="login_icon" alt="login">Log In</button></li>
+                        </ul>
+                    </div>
+            </div>
+    </header>
+
+                                                    <div id="id01" class="modal">
+                                                        <form class="modal-content animate" id="loginform" action="/action_page.php">
+                                                            <div class="container">
+                                                                <label for="uname"><b>Email</b></label>
+                                                                <input type="email" placeholder="Enter Email" name="uname" required>
+                                                                <label for="psw"><b>Password</b></label>
+                                                                <input type="password" placeholder="Enter Password" name="psw" required>
+                                                                <button type="submit" id="loginbutton">Log In</button>
+                                                                <input type="checkbox" checked="checked" name="remember"> Remember me
+                                                                </label>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+
+
+
+    <div class="content" >
+        <div class="home" >
+            <div class="intro">
+                <h1>MAKAC</h1>
+                <h2>Change your life... NOW!</h2>
+                <p>
+                    We're your ideal health & fitness partner - here to support your efforts, no matter which fitness activities you enjoy most. Download our mobile apps today to track your activities, monitor progress and reach your goals!
+                </p>
+            </div>
+        </div>
+        <div id="getstarted">
+            <div class="download">
+                <h2>Download Makac</h2>
+                <p id="makactext">
+                    Makac turns your phone into a personal trainer in your pocket - ideal for running, cycling, walking and other distance sports. Connecting with a friend adds another layer of motivation and encouragement. Download the app and start freeing your endorphins.
+                </p>
+                <div class="stores">
+                    <a href="https://www.apple.com/sk/ios/app-store/" target="blank"><img src="images/appstore.png" alt="appstore" class="storeicon" id="appstore"></a> <br>
+                    <a href="https://play.google.com/store/apps" target="blank"><img src="images/googleplay.png" alt="googleplay" class="storeicon" ></a>
+                </div>
+            </div>
+            <div class="screenshot">
+                    <img src="images/startscreen_phone2.png" alt="screenshot" id="screenshot_image">
+            </div>
+        </div>
+        <div class="premium" id="premium">
+            <h3>Upgrade to Premium!</h3>
+            <h4 class="premium_heading2">Get the full Makac experience and stay motivated with Premium</h4>
+            <div class="premium_sec">
+                <div class="form">
+                    <form method="POST">
+
+                        <label for="check1" class="option">
+                                <input type="radio" name="radio1" value="1" id="check1"><span class="checkmark"></span><span class="price">3€ / MONTH</span>
+                        </label>
+
+                        <label for="check2" class="option">
+                                <input type="radio" name="radio1" value="2" id="check2"><span class="checkmark"></span><span class="price">15€ / 6 MONTHS</span>
+                        </label>
+
+                        <label for="check3" class="option">
+                                <input type="radio" name="radio1" value="3" id="check3"><span class="checkmark"></span><span class="price">25€ / YEAR</span>
+                        </label>
+
+                        <div class="button_div">
+                            <input type="button" class="button" value="Continue" onclick="document.getElementById('id01').style.display='block'" style="width:auto;" class="listitem2">
+                        </div>
+
+                
+                     </form>
+                </div>
+                <div class="premium_list">
+                    <ul>
+                        <li>
+                            <h4><span class="dot"></span>
+                                    Enjoy Makac Free of Ads
+                            </h4>
+                            <p  class="premium_paragraph">
+                                    Take advantage of the display field on the tracker screen and enjoy both app and website without seeing any external ads.
+                            </p>
+                        </li>
+                        <li>
+                            <h4><span class="dot"></span>
+                                    Create a Personal Training Plan
+                            </h4>
+                            <p  class="premium_paragraph">
+                                    Get a training plan tailored for you, your fitness level and running goal. The plan is adjusted dynamically if you improve faster or slower than anticipated.
+                            </p>
+                        </li>
+                        <li>
+                            <h4><span class="dot"></span>
+                                    Analyze Your Statistics
+                            </h4>
+                            <p  class="premium_paragraph" id="lastpar">
+                                    Keep track of training volume, personal bests over time and how you stack up against similar users. For each workout, you also get access to heart rate zones analyses.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer_sec">
+            <div class="footer1">
+                <ul>
+                        <li><a href="" class="footer_items">Contact</a></li>
+                        <li><a href="" class="footer_items">Terms & conditions</a></li>
+                        <li><a href="" class="footer_items">Privacy policy</a></li>
+                        <li><a href="" class="footer_items">Help and Support</a></li>
+                </ul>
+            </div>
+            <div class="footer2">
+                    <a href="https://www.facebook.com/" target="blank"><img src="images/facebook_icon.png" alt="" class="icons"></a>
+                    <a href="https://www.instagram.com/epic_patrik/" target="blank"><img src="images/instagram_icon.png" alt="" class="icons"></a>    
+            </div>
+        </div>
+        <div class="footer3">
+            &#169; Jurcisin Web-Design Limited. 2018
+        </div>
+    </div>
+<script>
+                var modal = document.getElementById('id01');
+                window.onclick = function(event) {
+                    if (event.target == modal) {
+                        modal.style.display = "none";
+                    }
+                }
+</script>
+</body>
+</html>
